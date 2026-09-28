@@ -15,7 +15,7 @@ bibliography: bibliography.yaml
 
 \tableofcontents
 
-\listoffigures
+---
 
 \listoftables
 
@@ -263,7 +263,7 @@ This section resolves the profile items in Section 6 of [@{ietf-rfc9711}].
 | Lead measurements | TCG DICE Concise Evidence using CoAP Content-Format 10571 (`application/ce+cbor`) |
 | Detached evidence claim | CWT `cmw` claim 299 [@{ietf-rfc9999}] |
 | Additional claims | Prohibited by the closed CDDL maps in this profile |
-{: title="Composite EAT profile conformance"}
+** Table 1: Composite EAT profile conformance**
 
 Conforming producers MUST emit every choice in the table. Conforming Verifiers
 MUST support those choices. A producer MUST NOT add claims to
